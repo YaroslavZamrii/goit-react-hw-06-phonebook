@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.number {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+}
