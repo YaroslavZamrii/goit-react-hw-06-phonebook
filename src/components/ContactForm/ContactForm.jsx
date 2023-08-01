@@ -2,10 +2,10 @@ import css from './ContactForm.module.css';
 import { nanoid } from 'nanoid';
 import { useDispatch, useSelector } from 'react-redux';
 import { Report } from 'notiflix';
-import { addContact } from 'redux/contactReducer';
+import { addContact } from 'redux/contactsSlice';
 
 export const ContactForm = () => {
-  const contacts = useSelector(state => state.contactBook.contacts);
+  const contacts = useSelector(state => state.contacts.item);
   const dispatch = useDispatch();
 
   const formSubmit = e => {

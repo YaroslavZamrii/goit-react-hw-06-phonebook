@@ -8,7 +8,7 @@ import Message from './Message';
 import css from './App.module.css';
 
 export const App = () => {
-  const contacts = useSelector(state => state.contactBook.contacts);
+  const contacts = useSelector(state => state.contacts.item);
 
   return (
     <div className={css.container}>
